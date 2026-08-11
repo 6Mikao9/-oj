@@ -1,0 +1,5 @@
+read x y
+5 3
+z=x*y+10
+print z x y
+exit

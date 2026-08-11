@@ -1,0 +1,1 @@
+const unsigned long int *ptr, arr[10], var_name, **double_ptr

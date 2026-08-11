@@ -1,0 +1,60 @@
+# Build outputs
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.lib
+
+# Keep OJ testcase expected outputs tracked
+!oj/problems/**/testcases/*.out
+
+# Python cache and virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Editor and OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local temp/runtime artifacts
+tmp/
+temp/
+*.log
+
+# Personal editor config (contains local absolute paths)
+.vscode/
+
+# Personal debug/temp/test residue
+debug_*.cpp
+temp_*.cpp
+test_*.cpp
+test_*.txt
+*_user*.cpp
+*_user_check.cpp
+
+# One-off OJ data-import/repair scripts (hardcoded local paths, not runtime)
+oj/add_*.py
+oj/fix_*.py
+
+# One-off personal maintenance scripts
+audit_data_consistency.py
+generate_missing_problem_md.py
+repair_problem_quality.py
+
+# Internal progress/report/refactor docs
+oj/data/progress_report.md
+*架构设计.md
+*重构方案.md
+*重构任务清单*.md
+*重构落地计划*.md
+*交付说明*.md
+*审计报告*.md
+*质量检查报告*.md

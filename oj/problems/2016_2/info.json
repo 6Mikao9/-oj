@@ -1,0 +1,15 @@
+{
+  "id": "2016_2",
+  "title": "解析enum定义",
+  "description": "【问题描述】\n给一个C语言的enum定义语句，输出enum中规定的各项值。\n\nenum的语法格式：\nenum 类型名 { 标识符1[=值1], 标识符2[=值2], ... };\n\n如果没有指定值，则第一个标识符值为0，后面依次递增1。\n如果指定了值，则从该值开始，后面依次递增1。\n\n【输入格式】\n一行，包含一个enum定义语句\n\n【输出格式】\n每行输出一个标识符及其对应的值，格式：标识符 值\n\n【样例输入1】\nenum BOOL{true,false};\n\n【样例输出1】\ntrue 0\nfalse 1\n\n【样例输入2】\nenum date{JAN=1,FEB,MAR,APR,MAY,JUN,JULY,AUG,SEP,OCT,NOV,DEC,MON=1,TUE,WED,THU,FRI,SAT,SUN,found=1949};\n\n【样例输出2】\nJAN 1\nFEB 2\nMAR 3\nAPR 4\nMAY 5\nJUN 6\nJULY 7\nAUG 8\nSEP 9\nOCT 10\nNOV 11\nDEC 12\nMON 1\nTUE 2\nWED 3\nTHU 4\nFRI 5\nSAT 6\nSUN 7\nfound 1949\n\n【提示】\n1. 提取花括号内的内容\n2. 按逗号分割各项\n3. 每项可能有\"=值\"，也可能没有\n4. 没有指定值的项，值为上一项+1（第一项为0）\n5. 跳过空格和换行",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

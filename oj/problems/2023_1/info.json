@@ -1,0 +1,8 @@
+{
+  "id": "2023_1",
+  "title": "手机基站重叠日志查询",
+  "description": "## 问题描述\n给定一天内多个基站日志和一个目标手机号，找出与目标人员在同一基站且时间有重叠的其他人员日志。\n\n## 输入格式\n第一行 N，接下来 N 行日志（phone station login logout），最后一行是目标手机号。\n\n## 输出格式\n输出满足条件的日志，按 login 升序，若相同按 phone 升序。",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": []
+}

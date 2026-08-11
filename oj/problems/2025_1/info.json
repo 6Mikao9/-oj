@@ -1,0 +1,8 @@
+{
+  "id": "2025_1",
+  "title": "商品销售汇总排序",
+  "description": "## 问题描述\n按商品类别+编号聚合销售数量与销售额，并按销售额降序输出。\n\n## 输入格式\n第一行 n，后续 n 行：type id amount price。\n\n## 输出格式\n每行输出 type id total_amount total_sales。",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": []
+}

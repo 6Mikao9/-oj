@@ -1,0 +1,15 @@
+{
+  "id": "2026_6",
+  "year": 2026,
+  "title": "素数等差序列筛选",
+  "description": "## 问题描述\n在区间内找出长度至少为 3 的极大素数等差序列。\n\n## 输入格式\n见题面。\n\n## 输出格式\n见题面。",
+  "status": "未解决",
+  "submissions": [],
+  "solution_file": "oj/solutions/2026_6_solution.cpp",
+  "notes": "",
+  "tags": [
+    "2026模拟"
+  ],
+  "is_favorite": false,
+  "annotation": ""
+}

@@ -1,0 +1,8 @@
+{
+  "id": "2025_2",
+  "title": "找出最合适的基站",
+  "description": "## 问题描述\n在无向带权图中找一个城市，使其到所有城市的最短路和最小。\n\n## 输入格式\n第一行 n，后续 n 行：city1 city2 w。\n\n## 输出格式\n输出 bestCity 与对应最小和 minSum。",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": []
+}

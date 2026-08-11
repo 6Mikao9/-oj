@@ -1,0 +1,13 @@
+{
+  "id": "2010_2",
+  "year": 2010,
+  "title": "归并有序字符串",
+  "description": "【问题描述】\n归并两个升序字符串，要求输出不能有重复字符。\n（数据结构上做过的Merge函数，相同字符只出现一次）\n\n【输入格式】\n第一行：第一个升序字符串（已排序的小写字母）\n第二行：第二个升序字符串（已排序的小写字母）\n\n【输出格式】\n输出合并后的升序字符串，重复字符只保留一个。\n\n【样例输入】\naceg\nbdfh\n\n【样例输出】\nabcdefgh\n\n【样例输入2】\naabb\nabcc\n\n【样例输出2】\nabc\n\n【提示】\n- 使用双指针法进行归并\n- 注意去重：当当前字符与结果串最后一个字符相同时跳过\n- 两个输入字符串本身可能包含重复字符，也要去重",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2010_2_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

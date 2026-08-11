@@ -1,0 +1,13 @@
+{
+  "id": "2010_1",
+  "year": 2010,
+  "title": "泰勒公式求cos(x)",
+  "description": "【问题描述】\n利用泰勒公式求cos(x)的近似值。\ncos(x) = 1 - x²/2! + x⁴/4! - x⁶/6! + ... + (-1)ⁿ * x²ⁿ/(2n)!\n\n当某项的绝对值小于给定的精度epsilon时停止迭代。\n\n【输入格式】\n第一行：x（弧度，double类型）\n第二行：epsilon（精度，double类型，如1e-6）\n\n【输出格式】\n输出cos(x)的近似值，保留10位小数\n\n【样例输入】\n1.0\n1e-6\n\n【样例输出】\n0.5403023059\n\n【提示】\n- 阶乘增长很快，注意溢出问题，用double存储\n- 递推公式：term(n+1) = -term(n) * x² / ((2n+2)*(2n+1))\n- 初始值：term(0) = 1\n- 注意：比较时用fabs(term) >= epsilon",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2010_1_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

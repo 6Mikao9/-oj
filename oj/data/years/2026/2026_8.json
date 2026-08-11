@@ -1,0 +1,15 @@
+{
+  "id": "2026_8",
+  "year": 2026,
+  "title": "学生运动记录汇总",
+  "description": "## 问题描述\n按学号聚合运动时长与项目集合，并按总时长排序输出。\n\n## 输入格式\n见题面。\n\n## 输出格式\n见题面。",
+  "status": "未解决",
+  "submissions": [],
+  "solution_file": "oj/solutions/2026_8_solution.cpp",
+  "notes": "",
+  "tags": [
+    "2026模拟"
+  ],
+  "is_favorite": false,
+  "annotation": ""
+}

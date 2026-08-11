@@ -1,0 +1,8 @@
+{
+  "id": "2024_1",
+  "title": "学生运动记录分类统计",
+  "description": "## 问题描述\n统计学生运动记录：按 B/S/M 类别输出学生的总运动时长（小时，保留两位）及运动形式列表。\n\n## 输入格式\n第一行 n，后续 n 行为 id sport start end（时间格式 HHMMSS）。\n\n## 输出格式\n按 B、S、M 顺序输出；同类别按总时长升序，若并列按学号升序。",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": []
+}

@@ -1,0 +1,3 @@
+#clude <stdio.h>
+t ma()
+printf("Hi ");

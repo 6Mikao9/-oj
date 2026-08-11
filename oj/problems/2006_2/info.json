@@ -1,0 +1,7 @@
+{
+  "id": "2006_2",
+  "title": "学生成绩排序",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": [1, 2, 3, 4]
+}

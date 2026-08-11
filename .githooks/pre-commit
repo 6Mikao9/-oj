@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -e
+
+if [ -x ".venv/Scripts/python.exe" ]; then
+  PY=".venv/Scripts/python.exe"
+else
+  PY="python"
+fi
+
+SCOPE="${QUALITY_GUARD_SCOPE:-all}"
+"$PY" scripts/quality_guard.py --mode quick --scope "$SCOPE"

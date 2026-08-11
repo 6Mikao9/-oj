@@ -1,0 +1,13 @@
+{
+  "id": "2026_1",
+  "year": 2026,
+  "title": "2026-模拟",
+  "description": "## 问题描述\n给定一个包含 + - * / 和括号的中缀表达式，按优先级计算结果并保留 2 位小数输出。\n\n## 输入格式\n一行表达式，可包含空格。\n\n## 输出格式\n输出表达式值，保留 2 位小数。",
+  "status": "未解决",
+  "submissions": [],
+  "solution_file": "oj/solutions/2026_1_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

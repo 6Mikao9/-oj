@@ -1,0 +1,8 @@
+{
+  "id": "2026_9",
+  "title": "简易脚本解释器",
+  "description": "## 问题描述\n实现 read/assign/print/exit 指令解释执行，支持括号与四则运算。\n\n## 输入格式\n见题面。\n\n## 输出格式\n见题面。",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "2023_2",
+  "year": 2023,
+  "title": "老鼠返回最短路径",
+  "description": "## 问题描述\n给定方向-步数序列，表示老鼠到达食物点的运动过程。请输出最短返回路径。\n\n## 输入格式\n输入若干方向-步数对，以 0-0 结束。\n\n## 输出格式\n输出最短返回路径，格式同输入。若无需移动，输出 0-0。",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2023_2_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

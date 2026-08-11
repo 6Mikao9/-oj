@@ -1,0 +1,17 @@
+{
+  "id": "2006_2",
+  "year": 2006,
+  "title": "学生成绩排序",
+  "description": "【问题描述】\n输入若干个学生的姓名和成绩，然后按照成绩从高到低的顺序输出学生信息。\n\n【输入格式】\n第一行：整数N（学生人数）\n接下来N行：每行包含一个字符串（姓名，不超过100个字符）和一个整数（成绩）\n\n【输出格式】\n输出N行，每行包含姓名和成绩，按成绩从高到低排序\n如果成绩相同，按输入顺序输出\n\n【样例输入】\n5\nAlice 85\nBob 92\nCharlie 78\nDavid 92\nEve 85\n\n【样例输出】\nBob 92\nDavid 92\nAlice 85\nEve 85\nCharlie 78",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2006_2_solution.cpp",
+  "notes": "",
+  "tags": [
+    "排序",
+    "结构体",
+    "基础"
+  ],
+  "is_favorite": true,
+  "annotation": ""
+}

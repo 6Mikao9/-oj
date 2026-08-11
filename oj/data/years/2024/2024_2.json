@@ -1,0 +1,13 @@
+{
+  "id": "2024_2",
+  "year": 2024,
+  "title": "网络设备故障传播定位",
+  "description": "## 问题描述\n给定设备树与已知故障交换机编号，输出受影响（可能故障）的设备编号。\n\n## 输入格式\n第一行 n，接着 n 行 id type port parentId，最后一行 faultySwitchId。\n\n## 输出格式\n先序输出故障交换机子树中的设备编号。",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2024_2_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

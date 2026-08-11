@@ -1,0 +1,17 @@
+{
+  "id": "2006_1",
+  "year": 2006,
+  "title": "判断数组元素是否相同",
+  "description": "【问题描述】\n写一个函数判断数组a和b所含元素是否都相同（作为集合判断是否相等，不考虑重复元素和顺序）。\n\n【输入格式】\n第一行：整数n（数组a的元素个数）\n第二行：n个整数（数组a的元素）\n第三行：整数m（数组b的元素个数）\n第四行：m个整数（数组b的元素）\n\n【输出格式】\n如果两个数组包含相同的元素集合，输出 \"equal!\"\n否则输出 \"not equal!\"\n\n【样例输入1】\n3\n1 2 3\n3\n3 2 1\n\n【样例输出1】\nequal!\n\n【样例输入2】\n3\n1 2 3\n3\n1 2 4\n\n【样例输出2】\nnot equal!",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2006_1_solution.cpp",
+  "notes": "",
+  "tags": [
+    "数组",
+    "集合",
+    "基础"
+  ],
+  "is_favorite": false,
+  "annotation": "1"
+}

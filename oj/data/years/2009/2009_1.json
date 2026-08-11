@@ -1,0 +1,13 @@
+{
+  "id": "2009_1",
+  "year": 2009,
+  "title": "立方根逼近迭代",
+  "description": "【问题描述】\n立方根的逼近迭代方程是：y(n+1) = y(n)*2/3 + x/(3*y(n)*y(n))\n其中 y0 = x，求给定的x经过n次迭代后立方根的值。\n\n【输入格式】\n多组数据，每组一行两个数：x n\n- x：待求立方根的数（double）\n- n：迭代次数（int）\n\n【输出格式】\n每组数据输出一行，迭代n次后的立方根值\ndouble精度，保留小数点后6位\n\n【样例输入】\n3000000 28\n\n【样例输出】\n144.224957\n\n【提示】\n- 初始值 y0 = x\n- 迭代公式：y = y * 2.0 / 3.0 + x / (3.0 * y * y)\n- 注意浮点数精度问题\n- 立方根迭代收敛很快，28次迭代足够精确",
+  "status": "已解决",
+  "submissions": [],
+  "solution_file": "oj/data/solutions/2009_1_solution.cpp",
+  "notes": "",
+  "tags": [],
+  "is_favorite": false,
+  "annotation": ""
+}

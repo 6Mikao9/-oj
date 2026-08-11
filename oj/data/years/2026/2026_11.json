@@ -1,0 +1,15 @@
+{
+  "id": "2026_11",
+  "year": 2026,
+  "title": "最优中继基站",
+  "description": "## 问题描述\n在带权无向图中找距离和最小的节点，平局取编号最小。\n\n## 输入格式\n见题面。\n\n## 输出格式\n见题面。",
+  "status": "未解决",
+  "submissions": [],
+  "solution_file": "oj/solutions/2026_11_solution.cpp",
+  "notes": "",
+  "tags": [
+    "2026模拟"
+  ],
+  "is_favorite": false,
+  "annotation": ""
+}

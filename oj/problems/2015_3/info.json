@@ -1,0 +1,12 @@
+{
+  "id": "2015_3",
+  "title": "统计词语",
+  "description": "【问题描述】\n输入一段含标点的英文语段（若干行，以Ctrl+Z结束，即EOF）\n统计这段话中出现的所有词语\n要求按字典顺序输出词语，每输出一个词换一行\n相同的词语只出现一次（去重）\n\n【输入格式】\n若干行英文文本（以EOF结束）\n\n【输出格式】\n按字典序排序的不重复单词列表，每行一个单词\n\n【样例输入】\nHello, world! This is a test.\nHello again.\n\n【样例输出】\na\nagain\nhello\nis\ntest\nthis\nworld\n\n【提示】\n1. 标点符号包括：, . ? ! ; : ' \" ( ) [ ] { } < > \n \t 等\n2. 将标点符号替换为空格或作为分隔符\n3. 将所有字母转换为小写\n4. 提取单词，去重，排序后输出\n5. 使用选择排序或qsort对单词排序",
+  "time_limit": 1000,
+  "memory_limit": 65536,
+  "test_cases": [
+    1,
+    2,
+    3
+  ]
+}

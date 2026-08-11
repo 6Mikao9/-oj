@@ -1,0 +1,7 @@
+2
+/a F 1
+/b F 2
+3
+rm /a
+rm /b
+size /

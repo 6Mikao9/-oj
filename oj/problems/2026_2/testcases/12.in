@@ -1,0 +1,17 @@
+7
+/srv D 0
+/srv/www D 0
+/srv/www/index.html F 1
+/srv/api D 0
+/srv/api/app.py F 2
+/etc D 0
+/etc/hostname F 3
+8
+mkdir /srv/www/img
+create /srv/www/img/logo.png 4
+mv /srv/api /srv/www/api
+size /srv
+rm /srv/www/img/logo.png
+mv /etc/hostname /srv/www/hostname.txt
+size /etc
+size /srv/www

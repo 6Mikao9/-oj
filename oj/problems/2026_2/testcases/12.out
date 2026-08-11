@@ -1,0 +1,12 @@
+7
+0
+6
+/
+  etc/
+  srv/
+    www/
+      api/
+        app.py 2
+      hostname.txt 3
+      img/
+      index.html 1

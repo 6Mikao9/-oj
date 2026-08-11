@@ -1,0 +1,10 @@
+3
+/d D 0
+/d/sub D 0
+/d/sub/f F 1
+5
+mv /d /d/sub
+size /d
+mv /d/sub /d/new
+rm /d/new
+size /d

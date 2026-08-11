@@ -1,0 +1,11 @@
+3
+/e D 0
+/e/g F 2
+/dest D 0
+6
+mv /e/g /dest
+mkdir /e/sub
+create /e/sub/q 4
+create /e/g 9
+create /e/conflict 9
+size /e

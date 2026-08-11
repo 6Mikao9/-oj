@@ -1,0 +1,13 @@
+65
+60
+65
+35
+/
+  root/
+    dir2/
+      sub/
+        file3 30
+      x/
+        file1 10
+        file2 20
+        top 5

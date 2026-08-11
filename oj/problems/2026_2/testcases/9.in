@@ -1,0 +1,9 @@
+2
+/a F 1
+/b F 2
+5
+mv /a /nope/a
+mv /a /b
+size /a
+create /a/x 5
+size /a

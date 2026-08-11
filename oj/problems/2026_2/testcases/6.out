@@ -1,0 +1,11 @@
+600
+600
+500
+/
+  usr/
+    bin/
+      gcc 100
+    lib/
+    local/
+      go 300
+      libc 200

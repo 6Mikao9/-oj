@@ -1,0 +1,18 @@
+9
+/root D 0
+/root/dir1 D 0
+/root/dir1/file1 F 10
+/root/dir1/file2 F 20
+/root/dir2 D 0
+/root/dir2/sub D 0
+/root/dir2/sub/file3 F 30
+/root/dir3 D 0
+/root/top F 5
+7
+size /root
+mv /root/dir1 /root/dir2/x
+size /root/dir2
+rm /root/dir3
+size /root
+mv /root/top /root/dir2/x/top
+size /root/dir2/x

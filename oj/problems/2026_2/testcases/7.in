@@ -1,0 +1,13 @@
+5
+/a D 0
+/a/B D 0
+/a/b F 5
+/a/C F 7
+/zz F 1
+6
+mkdir /a/B/c
+mv /a/b /a/B/b
+size /a/B
+rm /zz
+size /zz/
+size /a/B/b

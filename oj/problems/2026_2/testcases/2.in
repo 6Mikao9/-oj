@@ -1,0 +1,11 @@
+4
+/a D 0
+/a/b F 10
+/a/c D 0
+/a/c/d F 20
+5
+mkdir /a/e
+create /a/f 5
+size /a
+size /a/b
+size /zzz

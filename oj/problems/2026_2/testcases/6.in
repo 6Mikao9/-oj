@@ -1,0 +1,13 @@
+5
+/usr D 0
+/usr/bin D 0
+/usr/bin/gcc F 100
+/usr/lib D 0
+/usr/lib/libc F 200
+6
+mkdir /usr/local
+create /usr/local/go 300
+size /usr
+size /
+mv /usr/lib/libc /usr/local
+size /usr/local

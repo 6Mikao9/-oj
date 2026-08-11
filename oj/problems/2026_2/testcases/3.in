@@ -1,0 +1,10 @@
+4
+/x D 0
+/x/a F 1
+/x/b F 2
+/y D 0
+4
+mv /x/a /x/c
+mv /x/b /y
+size /x
+size /y

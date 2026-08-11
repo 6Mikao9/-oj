@@ -1,0 +1,15 @@
+6
+/ D 0
+/etc D 0
+/etc/passwd F 100
+/etc/nginx D 0
+/home D 0
+/home/user D 0
+7
+mkdir /var
+create /var/log.txt 50
+size /etc
+rm /etc/nginx
+mv /home/user /home/student
+create /home/student/notes.txt 10
+size /home
